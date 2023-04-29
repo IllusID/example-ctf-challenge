@@ -1,0 +1,230 @@
+{
+  "_format": "ethers-rs-sol-cache-3",
+  "paths": {
+    "artifacts": "out",
+    "build_infos": "out/build-info",
+    "sources": "contracts",
+    "tests": "test",
+    "scripts": "script",
+    "libraries": [
+      "lib"
+    ]
+  },
+  "files": {
+    "contracts/Chal.sol": {
+      "lastModificationDate": 1677896662045,
+      "contentHash": "be3cc556780f4e10f9a0f0b33a316ba3",
+      "sourceName": "contracts/Chal.sol",
+      "solcConfig": {
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "metadata": {
+            "bytecodeHash": "ipfs",
+            "appendCBOR": true
+          },
+          "outputSelection": {
+            "*": {
+              "": [
+                "ast"
+              ],
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ]
+            }
+          },
+          "evmVersion": "london",
+          "libraries": {}
+        }
+      },
+      "imports": [
+        "contracts/IERC20.sol",
+        "contracts/IUniswapV2Router.sol"
+      ],
+      "versionRequirement": "^0.8.13",
+      "artifacts": {
+        "Chal": {
+          "0.8.19+commit.7dd6d404.Linux.gcc": "Chal.sol/Chal.json"
+        }
+      }
+    },
+    "contracts/Exploit.sol": {
+      "lastModificationDate": 1677897641878,
+      "contentHash": "3b2f96880cc65cca34979f60cab74c3f",
+      "sourceName": "contracts/Exploit.sol",
+      "solcConfig": {
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "metadata": {
+            "bytecodeHash": "ipfs",
+            "appendCBOR": true
+          },
+          "outputSelection": {
+            "*": {
+              "": [
+                "ast"
+              ],
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ]
+            }
+          },
+          "evmVersion": "london",
+          "libraries": {}
+        }
+      },
+      "imports": [
+        "contracts/Chal.sol",
+        "contracts/IERC20.sol",
+        "contracts/IUniswapV2Router.sol",
+        "contracts/Setup.sol"
+      ],
+      "versionRequirement": "^0.8.13",
+      "artifacts": {
+        "Exploit": {
+          "0.8.19+commit.7dd6d404.Linux.gcc": "Exploit.sol/Exploit.json"
+        }
+      }
+    },
+    "contracts/IERC20.sol": {
+      "lastModificationDate": 1677896662045,
+      "contentHash": "e0eeb68212edc2600eceddeb8bf0f7a7",
+      "sourceName": "contracts/IERC20.sol",
+      "solcConfig": {
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "metadata": {
+            "bytecodeHash": "ipfs",
+            "appendCBOR": true
+          },
+          "outputSelection": {
+            "*": {
+              "": [
+                "ast"
+              ],
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ]
+            }
+          },
+          "evmVersion": "london",
+          "libraries": {}
+        }
+      },
+      "imports": [],
+      "versionRequirement": null,
+      "artifacts": {
+        "IERC20": {
+          "0.8.19+commit.7dd6d404.Linux.gcc": "IERC20.sol/IERC20.json"
+        },
+        "IWETH9": {
+          "0.8.19+commit.7dd6d404.Linux.gcc": "IERC20.sol/IWETH9.json"
+        }
+      }
+    },
+    "contracts/IUniswapV2Router.sol": {
+      "lastModificationDate": 1677896662045,
+      "contentHash": "5eed83e4e090ff07a8e419a5dcdd5ffb",
+      "sourceName": "contracts/IUniswapV2Router.sol",
+      "solcConfig": {
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "metadata": {
+            "bytecodeHash": "ipfs",
+            "appendCBOR": true
+          },
+          "outputSelection": {
+            "*": {
+              "": [
+                "ast"
+              ],
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ]
+            }
+          },
+          "evmVersion": "london",
+          "libraries": {}
+        }
+      },
+      "imports": [],
+      "versionRequirement": null,
+      "artifacts": {
+        "IUniswapV2Router": {
+          "0.8.19+commit.7dd6d404.Linux.gcc": "IUniswapV2Router.sol/IUniswapV2Router.json"
+        }
+      }
+    },
+    "contracts/Setup.sol": {
+      "lastModificationDate": 1677896662045,
+      "contentHash": "6ad962a07b99902e4df17a09b4ad2d8f",
+      "sourceName": "contracts/Setup.sol",
+      "solcConfig": {
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "metadata": {
+            "bytecodeHash": "ipfs",
+            "appendCBOR": true
+          },
+          "outputSelection": {
+            "*": {
+              "": [
+                "ast"
+              ],
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ]
+            }
+          },
+          "evmVersion": "london",
+          "libraries": {}
+        }
+      },
+      "imports": [
+        "contracts/Chal.sol",
+        "contracts/IERC20.sol",
+        "contracts/IUniswapV2Router.sol"
+      ],
+      "versionRequirement": "^0.8.13",
+      "artifacts": {
+        "Setup": {
+          "0.8.19+commit.7dd6d404.Linux.gcc": "Setup.sol/Setup.json"
+        }
+      }
+    }
+  }
+}
